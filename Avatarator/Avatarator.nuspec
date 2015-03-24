@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Avatarator</id>
+    <version>0.0.1</version>
+    <title>Avatarator - Avatar Generator</title>
+    <authors>badkenny</authors>
+    <owners>badkenny</owners>
+    <projectUrl>https://github.com/mgibas/avatarator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple library for avatar generation</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>Avatar Generator</tags>
+  </metadata>
+</package>
