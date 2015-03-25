@@ -2,10 +2,15 @@ Avatarator [![Build status](https://ci.appveyor.com/api/projects/status/uf021jx0
 ====
 Just simple .Net avatar generator :)
 
+NuGet
+====
+```
+Install-Package Avatarator
+```
+
 Features
 ====
 * generate abbreviation/initial avatar
-
 
 Usages
 ====
