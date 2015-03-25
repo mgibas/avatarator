@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Avatarator</id>
-    <version>0.0.1</version>
+    <version>$version$</version>
     <title>Avatarator - Avatar Generator</title>
     <authors>badkenny</authors>
     <owners>badkenny</owners>
