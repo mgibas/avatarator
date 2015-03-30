@@ -1,4 +1,4 @@
-Avatarator [![Build status](https://ci.appveyor.com/api/projects/status/uf021jx0uwmss48o?svg=true)](https://ci.appveyor.com/project/mgibas/avatarator)
+Avatarator [![Build status](https://ci.appveyor.com/api/projects/status/uf021jx0uwmss48o?retina=true)](https://ci.appveyor.com/project/mgibas/avatarator)
 ====
 Just simple .Net avatar generator :)
 
