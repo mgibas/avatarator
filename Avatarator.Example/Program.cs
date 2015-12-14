@@ -8,7 +8,7 @@ namespace Avatarator.Example
         {
             var generator = new AbbreviationGenerator(new AvataratorConfig());
 
-            var avatar = generator.Generate("amy some", 100, 100);
+            var avatar = generator.Generate("8@8.pl", 200, 200);
             File.WriteAllBytes("image.png", avatar);
         }
     }

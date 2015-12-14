@@ -17,7 +17,7 @@ namespace Avatarator
         public byte[] Generate(string data, int width, int height)
         {
             var abbreviation = GetAbbreviation(data);
-            var backgroundColor = config.BackgroundColors.ElementAt((int)abbreviation[0] % (config.BackgroundColors.Count() - 1));
+            var backgroundColor = config.BackgroundColors.ElementAt(abbreviation[0] % (config.BackgroundColors.Count() - 1));
 
             using (var bitmap = new Bitmap(width, height))
             {
@@ -31,9 +31,11 @@ namespace Avatarator
                         graphics.FillRectangle(brush, 0, 0, bitmap.Width, bitmap.Height);
                     }
 
-                    var rectangle = new RectangleF((int)(width * 0.05), (int)(height * 0.05), width, height);
-                    var format = new StringFormat { LineAlignment = StringAlignment.Center, Alignment = StringAlignment.Near };
-                    var font = CalculateFont(abbreviation, rectangle, graphics, new Font(FontFamily.GenericSansSerif, height / 2, FontStyle.Bold));
+                    var rectangle = new RectangleF(0, 0, width, height);
+                    var stringMaxHeight = height - height * 0.1;
+                    var stringMaxWidth = height - height * 0.1;
+                    var format = new StringFormat { LineAlignment = StringAlignment.Center, Alignment = StringAlignment.Center };
+                    var font = CalculateFont(abbreviation, stringMaxHeight, stringMaxWidth, graphics, new Font(FontFamily.GenericSansSerif, (float)height / 2, FontStyle.Bold));
                     using (var brush = new SolidBrush(Color.White))
                     {
                         graphics.DrawString(abbreviation, font, brush, rectangle, format);
@@ -45,13 +47,13 @@ namespace Avatarator
             }
         }
 
-        private Font CalculateFont(string text, RectangleF canvas, Graphics graphics, Font actualFont)
+        private Font CalculateFont(string text, double maxHeight, double maxWidth, Graphics graphics, Font actualFont)
         {
             var size = graphics.MeasureString(text, actualFont);
-            if (size.Width > (canvas.Width - canvas.Left * 2))
-                return CalculateFont(text, canvas, graphics, new Font(actualFont.FontFamily, actualFont.Size - 0.1f, actualFont.Style));
-            if (size.Height > (canvas.Height - canvas.Top * 2))
-                return CalculateFont(text, canvas, graphics, new Font(actualFont.FontFamily, actualFont.Size - 0.1f, actualFont.Style));
+            if (size.Width > maxWidth)
+                return CalculateFont(text, maxHeight, maxWidth, graphics, new Font(actualFont.FontFamily, actualFont.Size - 0.1f, actualFont.Style));
+            if (size.Height > maxHeight)
+                return CalculateFont(text, maxHeight, maxWidth, graphics, new Font(actualFont.FontFamily, actualFont.Size - 0.1f, actualFont.Style));
             return actualFont;
         }
         private string GetAbbreviation(string data)
