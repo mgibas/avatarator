@@ -1,4 +1,4 @@
-<a href="https://www.gitcheese.com/app/#/projects/84ee016e-8d39-4647-83dc-88b2c8b0e3ae/pledges/create" target="_blank" style="float:left;" > <img src="https://api.gitcheese.com/v1/projects/84ee016e-8d39-4647-83dc-88b2c8b0e3ae/badges" width="200px" /> </a>
+<a href="https://www.gitcheese.com/app/#/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/pledges/create" target="_blank" style="float:left;" > <img src="https://api.gitcheese.com/v1/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/badges" width="200px" /> </a>
 Avatarator [![Build status](https://ci.appveyor.com/api/projects/status/uf021jx0uwmss48o?retina=true)](https://ci.appveyor.com/project/mgibas/avatarator)
 ====
 Just simple .Net avatar generator :)
