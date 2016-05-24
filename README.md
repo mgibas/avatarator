@@ -6,6 +6,9 @@
     <a href="https://www.gitcheese.com/app/#/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/pledges/create">
         <img src="https://api.gitcheese.com/v1/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/badges"></img>
     </a>
+    <a href="https://www.nuget.org/packages/Avatarator/">
+        <img src="https://img.shields.io/nuget/v/Avatarator.svg?style=flat-square"></img>
+    </a>
 </p>
 
 ===
