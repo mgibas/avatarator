@@ -1,5 +1,15 @@
-# [![gitcheese.com](https://api.gitcheese.com/v1/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/badges)](https://www.gitcheese.com/app/#/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/pledges/create) Avatarator [![Build status](https://ci.appveyor.com/api/projects/status/uf021jx0uwmss48o?retina=true)](https://ci.appveyor.com/project/mgibas/avatarator)
-====
+# Avatarator
+<p align="center">
+    <a href="https://ci.appveyor.com/project/mgibas/avatarator/branch/master">
+        <img src="https://ci.appveyor.com/api/projects/status/github/mgibas/avatarator?branch=master&svg=true"></img>
+    </a>
+    <a href="https://www.gitcheese.com/app/#/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/pledges/create">
+        <img src="https://api.gitcheese.com/v1/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/badges"></img>
+    </a>
+</p>
+
+===
+
 Just simple .Net avatar generator :)
 
 NuGet
@@ -30,5 +40,3 @@ Contribute
 ====
 Maybe You have an idea for other avatar generator - do no hesitate - please send me some pull request :)
 
-====
-[![gitcheese.com](https://api.gitcheese.com/v1/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/badges)](https://www.gitcheese.com/app/#/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/pledges/create)
