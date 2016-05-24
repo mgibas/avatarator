@@ -1,3 +1,4 @@
+[![Beerpay](https://beerpay.io/mgibas/avatarator/badge.svg?style=flat-square)](https://beerpay.io/mgibas/avatarator)
 # Avatarator
 <p align="center">
     <a href="https://ci.appveyor.com/project/mgibas/avatarator/branch/master">
