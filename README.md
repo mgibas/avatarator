@@ -1,18 +1,16 @@
-[![Beerpay](https://beerpay.io/mgibas/avatarator/badge.svg?style=flat-square)](https://beerpay.io/mgibas/avatarator)
 # Avatarator
+
 <p align="center">
     <a href="https://ci.appveyor.com/project/mgibas/avatarator/branch/master">
         <img src="https://ci.appveyor.com/api/projects/status/github/mgibas/avatarator?branch=master&svg=true"></img>
     </a>
-    <a href="https://www.gitcheese.com/app/#/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/pledges/create">
-        <img src="https://api.gitcheese.com/v1/projects/cac52adf-9413-446a-bdc8-8d8593d5a9ce/badges"></img>
+    <a href="https://www.gitcheese.com/donate/users/530319/repos/32778272">
+        <img src="https://s3.amazonaws.com/gitcheese-ui-master/images/badge.svg"></img>
     </a>
     <a href="https://www.nuget.org/packages/Avatarator/">
         <img src="https://img.shields.io/nuget/v/Avatarator.svg?style=flat-square"></img>
     </a>
 </p>
-
-===
 
 Just simple .Net avatar generator :)
 
